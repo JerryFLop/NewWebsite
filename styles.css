@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.logo {
+    float: left;
+    
+}
+nav{
+    clear: both;
+    text-align: center;
+
+}
+body {
+    background-image: url("C:\WebSites\.vscode\images\pexels-pixabay-158233.jpg");
+  }
+.primary-nav a {
+    color: black;
+}
+.hero h2 {
+    color: rgb(102, 96, 16);
+    text-align: center;
+}
+
+.hero p {
+    color: black;
+}
+body{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+nav a{
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    font-size: 30px;
+}
