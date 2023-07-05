@@ -15,6 +15,7 @@
 .logo{
   float: left;
   padding: 30px 0 22px 0;
+  
 }
 nav{
     clear: both;
@@ -32,19 +33,34 @@ nav{
 body{
     background-image: url(".vscode/images/pexels-francisco-cornellana-castells-1062063.jpg");
     background-size: cover;
-    background-repeat: no-repeat; /* Specifies if the background image should be repeated or not */
+     background-repeat: no-repeat; /*Specifies if the background image should be repeated or not */
   background-position: center
 
 }  
+.class-row {
+  background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent background color */
+  padding: 20px; /* Add padding to the container */
+}
+
+
+/* Adjust the card background and text color */
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Set a semi-transparent background color for cards */
+  color: #333; /* Adjust the text color inside the cards */
+}
 .primary-nav a {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    background: linear-gradient(#49708f,#293f50); ;
+    background: linear-gradient(#49708f,#293f50); 
     padding: 10px;
 }
+.secondary-nav{
+  background: linear-gradient(#49708f,#293f50);
+
+}
 a{
-  color: #f10808;
+  color: #c710ff;
   text-decoration: none;
   padding: 10px;
  
@@ -176,4 +192,43 @@ button{
   footer{
     clear: both;
 color: #fff;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-bottom: 20px;
+  color: #c710ff;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.sub{
+  text-align: center;
+  
+  background: linear-gradient(#49708f,#293f50); 
+}
+.sign{
+  text-align: center;
+  color: #c710ff;
+  background: linear-gradient(#49708f,#293f50); 
 }
